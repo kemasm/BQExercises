@@ -1,0 +1,59 @@
+#menu-table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+#menu-table td {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  overflow: hidden;
+  text-align: left;
+  font-size: 20px;
+}
+
+#menu-table td ul{
+  padding-left: 20px;
+}
+
+#menu-table td h2{
+  text-align: center;
+  margin: 0;
+}
+
+#menu-table td img {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: fill;
+}
+
+#menu-table .snack-pic-td {
+  border-right: 0;
+}
+
+#menu-table .snack-desc-td{
+  border-left: 0;
+}
+
+#menu-table .snack-desc-td h2{
+  text-align: left;
+}
+
+.price {
+  color:cornflowerblue;
+  font-weight: 900;
+}
+
+#menu-selector td {
+  width: 200px;
+  text-align: center;
+}
+
+#menu-selector a {
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
