@@ -1,0 +1,36 @@
+th.renaissance{
+  background-color:DarkCyan;
+  font-weight:bolder;
+  font-size:22px;
+}
+td.renaissance{
+  background-color:DarkCyan;
+  color:white;
+}
+th.impression{
+  background-color:MediumAquaMarine ;
+  font-weight:bolder;
+  font-size:22px;
+}
+td.impression{
+  background-color:MediumAquaMarine ;
+  color:white;
+}
+th.cubism{
+  background-color:DarkSalmon ;
+  font-weight:bolder;
+  font-size:22px;
+}
+td.cubism{
+  background-color:DarkSalmon ;
+  color:white;
+}
+th.surrealism{
+  background-color:PaleGoldenRod;
+  font-weight:bolder;
+  font-size:22px;
+}
+td.surrealism{
+  background-color:PaleGoldenRod;
+  color:white;
+}
