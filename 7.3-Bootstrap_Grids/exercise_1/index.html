@@ -18,18 +18,22 @@
         <main class="container">
             
             <!-- Header tag with classes "p-5 m-5 bg-dark text-center rounded"--> 
-                <h1 class="display-1 text-info">Welcome to My Cool Website</h1> 
+                <h1 class="display-1 text-info bg-dark text-center m-5 p-5 rounded">Welcome to My Cool Website</h1> 
             <!-- End of header --> 
 
 
             <!-- Main Content -->
-            <!-- Create row here  --> 
-                <!-- This should be in the first 4 columns --> 
+            <!-- Create row here  -->
+                <div class="row">
+                    <!-- This should be in the first 4 columns --> 
+                    <div class="col">
                         <h3>About Me</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel euismod urna, in porta diam. Aliquam viverra sapien ac lorem commodo, eu molestie quam ultricies. Vivamus nisl odio, viverra nec gravida ut, pretium sit amet augue. Praesent ultrices, tortor non placerat vehicula, est enim facilisis ipsum, a accumsan felis sapien ac leo. Nullam faucibus, turpis ac suscipit imperdiet, nibh lorem laoreet enim, non rutrum magna tellus a mi. Phasellus congue risus id purus maximus ullamcorper at eu elit. Pellentesque gravida ligula non laoreet bibendum. Mauris rutrum turpis lectus, vitae pharetra augue viverra a. Aenean lacus massa, iaculis vel porttitor in, sagittis a felis. Morbi consectetur vehicula urna, ut malesuada velit gravida a. Sed cursus mollis pellentesque. Donec ut est et dolor maximus ullamcorper. Suspendisse eleifend porttitor arcu. Cras at purus tellus.</p>
-                <!-- End of first 4 colummns --> 
-            
-                <!-- Next 4 columns --> 
+                    </div>
+                    <!-- End of first 4 colummns --> 
+
+                    <!-- Next 4 columns --> 
+                    <div class="col">
                         <h3>Cool Tweet</h3>
                         <blockquote class="twitter-tweet" data-lang="en">
                             <p lang="en" dir="ltr">As few as 100 wild tigers are left in Bhutan—this 
@@ -40,10 +44,13 @@
                             <a href="https://twitter.com/NatGeo/status/892173080856072192">August 1, 2017</a>
                         </blockquote>
                         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                <!-- End of middle 4 columns --> 
-                
-            
-                <!-- Last 4 columns -->
+                    </div>
+                    
+                    <!-- End of middle 4 columns --> 
+
+
+                    <!-- Last 4 columns -->
+                    <div class="col">
                         <h3>List of Things</h3>
                         <ul>
                             <li><span class="placeholder col-4"></span></li>
@@ -57,12 +64,16 @@
                             <li><span class="placeholder col-4 placeholder-wave"></span></li>
                             
                         </ul>
-                <!-- End of last 4 columns -->
+                    </div>
+                   
+                    <!-- End of last 4 columns -->
+                </div>
+                
             <!-- End of row -->
         </main>
 
         <!-- Add classes "text-center container-fluid border-top" -->
-        <footer>
+        <footer class="text-center border-top">
            <p> Thanks for reading.
                 <small class="text-muted">This is the footer.</small>
             </p>
